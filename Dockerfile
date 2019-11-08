@@ -14,8 +14,8 @@ RUN yarn add --save-dev \
     babel-preset-react \
     babel-plugin-transform-class-properties
 
-# chdir into /usr/src/iswp2017
-WORKDIR /usr/src/iswp2017
+# chdir into /usr/src/iswp2022
+WORKDIR /usr/src/iswp2022
 
 # copy app build dir to image
 ADD src/ .
