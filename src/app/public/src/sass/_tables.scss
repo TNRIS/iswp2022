@@ -1,0 +1,170 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.reactPivot {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+  background: inherit;
+  box-shadow: none;
+
+  select {
+    height: auto;
+  }
+
+  button {
+    height: auto;
+  }
+}
+
+.reactPivot-results {
+  font-size: smaller;
+
+  td, th {
+    padding: 2px;
+
+    &:last-child {
+      text-align: right;
+    }
+
+    .reactPivot-solo {
+      font-weight: bold;
+    }
+  }
+}
+
+.reactPivot-pageNumber {
+  padding: 2px 4px;
+  a {
+    cursor: pointer;
+  }
+
+  &:hover {
+    font-weight: normal;
+  }
+
+  &.is-selected a {
+    text-decoration: none;
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+.reactPivot-paginate {
+  text-align: center;
+}
+
+.reactPivot-csvExport {
+  display: none;
+  visibility: hidden;
+}
+
+.table-condensed {
+  font-size: smaller;
+
+  tr.totals-row {
+    font-style: italic;
+
+    td {
+      border-top: 2px solid gray;
+    }
+  }
+
+  th, td {
+    text-align: right;
+    padding: 2px 20px 0 0;
+
+    &.row-label {
+      font-weight: bold;
+    }
+
+    &.reactable-th-total {
+      font-style: italic;
+    }
+
+    &.totals-col {
+      font-style: italic;
+      border-left: 2px solid gray;
+      width: 80px;
+    }
+
+    &.grand-total {
+      font-weight: bold;
+      border-left: 2px solid gray;
+    }
+  }
+}
+
+.regional-summary-table th, td {
+  max-width: 100px;
+}
+
+.projects-table {
+  .reactable-th-project {
+    min-width: 340px;
+  }
+
+  .reactable-th-sponsor {
+    min-width: 200px;
+  }
+}
+
+.projects-table.project-view {
+  th {
+    width: 50%;
+  }
+}
+
+.entity-strategies-table {
+  .reactable-th-strategy {
+    min-width: 300px;
+  }
+}
+
+.reactable-header-sortable {
+  cursor: pointer;
+}
+
+.reactable-pagination {
+  td {
+    text-align: center;
+  }
+
+  a {
+    padding: 2px 4px;
+
+    &.reactable-current-page {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+}
+
+.reactPivot-results th.asc,
+.reactable-header-sort-asc {
+  &:after {
+    content: '';
+    display: inline-block;
+    margin-left: 2px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #000;
+    opacity: 0.5;
+  }
+}
+
+.reactPivot-results th.desc,
+.reactable-header-sort-desc {
+  &:after {
+    content: '';
+    display: inline-block;
+    margin-left: 2px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #000;
+    opacity: 0.5;
+  }
+}

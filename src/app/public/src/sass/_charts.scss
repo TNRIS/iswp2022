@@ -1,0 +1,347 @@
+
+@mixin series-color($color) {
+  .ct-point, .ct-line, .ct-bar {
+    stroke: $color;
+  }
+}
+
+@mixin tooltip-color($color) {
+  background: $color;
+  &:after {
+    border-top-color: $color;
+  }
+}
+
+@mixin legend-color($color) {
+  fill: $color;
+}
+
+@mixin row-label-decoration($color) {
+  padding: 0 1px;
+  border-bottom: 1px solid $color;
+  display: inline-block;
+}
+
+.chart-header {
+  h4 {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+
+.chart-legend {
+  display: inline-block;
+  text-align: right;
+  max-width: 380px;
+
+  &.legend-types-by-decade {
+    max-width: 360px;
+
+    .legend-marker {
+      margin-right: 0;
+    }
+  }
+
+  > ul {
+    list-style: none;
+    margin: 0;
+
+    > li {
+      display: inline-block;
+      margin: 0 0 0 1.2rem;
+      color: $bodyColor;
+    }
+  }
+
+  svg.legend-marker {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+
+    @each $theme in $themes {
+      $name: nth($theme, 1);
+      $color: nth($theme, 2);
+
+      .series-#{$name} {
+        @include legend-color($color);
+      }
+    }
+
+    @each $type in $usageTypes {
+      $name: nth($type, 1);
+      $color: nth($type, 2);
+
+      .series-#{$name} {
+        @include legend-color($color);
+      }
+    }
+  }
+}
+
+.type-chart-container {
+  h5 {
+    line-height: 4.5rem;
+    margin-bottom: 0;
+  }
+
+  .usage-type-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-right: 6px;
+    margin-bottom: 0;
+    background-color: $panel-background-color;
+  }
+}
+
+.bar-chart-container {
+  position: relative;
+
+  .zero-message {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-left: 3rem;
+    bottom: 12rem;
+  }
+}
+
+.ct-chart {
+  .ct-label {
+    font-size: small;
+    color: $bodyColor;
+    fill: $bodyColor;
+
+    &.ct-horizontal {
+      font-size: 0.9em;
+    }
+  }
+
+  .ct-axis-title {
+    color: $bodyColor;
+    font-size: 1.2rem;
+  }
+
+  @each $theme in $themes {
+    $name: nth($theme, 1);
+    $color: nth($theme, 2);
+
+    .series-#{$name} {
+      @include series-color($color);
+    }
+  }
+
+  @each $type in $usageTypes {
+    $name: nth($type, 1);
+    $color: nth($type, 2);
+
+    .series-#{$name} {
+      @include series-color($color);
+    }
+  }
+}
+
+.strategies-breakdown-container {
+  .ct-slice-pie {
+    stroke: white;
+    stroke-width: 2px;
+    fill: $water-color;
+  }
+
+  .single-slice .ct-slice-pie {
+    stroke-width: 0;
+  }
+
+  .series-demand-reduction .ct-slice-pie,
+  .series-other-conservation .ct-slice-pie,
+  .series-municipal-conservation .ct-slice-pie,
+  .series-irrigation-conservation .ct-slice-pie
+  {
+    fill: $demand-management-color;
+  }
+}
+
+.ct-bar {
+  @media (max-width: $media-s) {
+    stroke-width: 7px;
+  }
+}
+
+.ct-series {
+  @include series-color(#000);
+}
+
+.ct-tooltip {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  position: fixed;
+  background-color: #2e2e2e;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  height: 22px;
+  pointer-events: none;
+  text-align: center;
+  z-index: 1;
+
+  &:after {
+    border: 9px solid transparent;
+    border-top-color: #2e2e2e;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -9px;
+    position: absolute;
+    top: 100%;
+    width: 0;
+  }
+
+  &.hide {
+    display: none;
+  }
+
+  &.offscreen {
+    display: block;
+    position: absolute;
+    left: -1000px;
+    top: -10000px;
+  }
+
+  @each $theme in $themes {
+    $name: nth($theme, 1);
+    $color: nth($theme, 2);
+
+    &.tooltip-#{$name} {
+      @include tooltip-color($color);
+    }
+  }
+
+  @each $type in $usageTypes {
+    $name: nth($type, 1);
+    $color: nth($type, 2);
+
+    &.tooltip-#{$name} {
+      @include tooltip-color($color);
+    }
+  }
+
+}
+
+.table-scroll-container {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: auto;
+  clear: both;
+}
+
+.chart-table-container {
+  margin-bottom: 1rem;
+  padding-right: 15px;
+
+  .toggle-container {
+    width: 100%;
+    text-align: right;
+    margin-top: -2.5rem;
+    z-index: 1;
+    position: relative;
+
+    .button-small {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    font-size: smaller;
+    line-height: 1.4rem;
+    margin-bottom: 0;
+
+    th, td {
+      text-align: right;
+      padding: 3px 20px 1px 0;
+    }
+
+    .row-label {
+      font-weight: bold;
+      max-width: 60px;
+      text-align: left;
+    }
+
+    tr.highlight {
+      background: #FFFFB3;
+    }
+
+    @each $theme in $themes {
+      $name: nth($theme, 1);
+      $color: nth($theme, 2);
+
+      tr.series-#{$name} .row-label > span {
+        @include row-label-decoration($color);
+      }
+    }
+
+    @each $type in $usageTypes {
+      $name: nth($type, 1);
+      $color: nth($type, 2);
+
+      tr.series-#{$name} .row-label > span {
+        @include row-label-decoration($color);
+      }
+    }
+
+  }
+
+  .totals-row {
+    font-style: italic;
+    border-top: 2px solid grey;
+  }
+}
+
+.treemap-chart {
+  font-size: 12px;
+
+  rect {
+    stroke: #fff;
+    cursor: pointer;
+
+    &.parent {
+      fill: #000; //must specify fill for svg title hover to work
+      fill-opacity: 0; //so set the opacity to 0
+      stroke-width: 2px;
+
+      &:hover {
+        fill-opacity: 0.1;
+      }
+    }
+
+    &.child {
+      @each $region in $regions {
+        $letter: nth($region, 1);
+        $color: nth($region, 2);
+
+        &.region-#{$letter} {
+          fill: $color;
+        }
+      }
+
+      @each $type in $usageTypes {
+        $name: nth($type, 1);
+        $color: nth($type, 2);
+
+        &.type-#{$name} {
+          fill: $color;
+        }
+      }
+    }
+  }
+
+  .grandparent {
+    rect {
+      fill: #ccc;
+      stroke-width: 2px;
+    }
+    text {
+      font-weight: bold;
+    }
+  }
+}

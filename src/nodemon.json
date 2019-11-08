@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": ["app/public/"],
+  "watch": ["app/"],
+  "ext": "swig es js",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
