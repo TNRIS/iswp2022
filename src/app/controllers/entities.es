@@ -4,12 +4,12 @@ import Hoek from 'hoek';
 import db from 'db';
 import {handleApiError} from 'lib/utils';
 
-const entityTable = 'vw2017MapEntityCoordinates';
-const entitiesInRegionTable = 'vw2017MapSelectEntitiesInRegion';
-const entitiesInCountyTable = 'vw2017MapSelectEntitiesInCounty';
+const entityTable = 'vwEntityCoordinates';
+const entitiesInRegionTable = 'vwSelectEntitiesInRegion';
+const entitiesInCountyTable = 'vwSelectEntitiesInCounty';
 
 //TODO: this table does not exist yet
-// const entitySummaryTable = 'vw2017MapEntitySummary';
+// const entitySummaryTable = 'vwEntitySummary';
 
 class EntitiesController {
   getAll(request, reply) {

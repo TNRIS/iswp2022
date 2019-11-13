@@ -9,15 +9,15 @@ import {handleApiError} from 'lib/utils';
 
 //TODO: Remove "typeTotals" from the population response?
 
-const needsPctDemandsTable = 'vw2017MapEntityNeedsAsPctOfDemand';
-const entityTable = 'vw2017MapEntityCoordinates';
+const needsPctDemandsTable = 'vwEntityNeedsAsPctOfDemand';
+const entityTable = 'vwEntityCoordinates';
 
 const summaryTables = {
-  demands: 'vw2017MapWugDemandsA1',
-  needs: 'vw2017MapWugNeedsA1',
-  supplies: 'vw2017MapExistingWugSupplyA1',
-  population: 'vw2017MapWugPopulationA1',
-  strategies: 'vw2017MapWMSWugSupplyA1'
+  demands: 'vwWugDemandsA1',
+  needs: 'vwWugNeedsA1',
+  supplies: 'vwExistingWugSupplyA1',
+  population: 'vwWugPopulationA1',
+  strategies: 'vwWMSWugSupplyA1'
 };
 
 const additionalFields = {
@@ -31,13 +31,13 @@ const additionalFields = {
 };
 
 const projectTables = {
-  region: 'vw2017MapWMSProjects',
-  county: 'vw2017MapWMSProjectByCounty',
-  entity: 'vw2017MapWMSProjectByEntity',
-  source: 'vw2017MapWMSProjectBySource',
-  wmstype: 'vw2017MapWMSProjectsByWmsType'
-  // project: 'vw2017MapWMSProjectByWMS'//Not included as project information in project view is pulled from the vw2017MapWMSProjectByEntityWUGSplit table
-  //usagetype: vw2017MapWMSProjectByWUGType //Not included because results are too large
+  region: 'vwWMSProjects',
+  county: 'vwWMSProjectByCounty',
+  entity: 'vwWMSProjectByEntity',
+  source: 'vwWMSProjectBySource',
+  wmstype: 'vwWMSProjectsByWmsType'
+  // project: 'vwWMSProjectByWMS'//Not included as project information in project view is pulled from the vwWMSProjectByEntityWUGSplit table
+  //usagetype: vwWMSProjectByWUGType //Not included because results are too large
 };
 
 function renameValueFields(theme) {

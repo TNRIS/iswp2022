@@ -3,7 +3,7 @@ import Hoek from 'hoek';
 import db from 'db';
 import {handleApiError} from 'lib/utils';
 
-const wmsTypeTable = 'vw2017MapWMSProjectsByWmsType';
+const wmsTypeTable = 'vwWMSProjectsByWmsType';
 
 
 class WmsTypeController {

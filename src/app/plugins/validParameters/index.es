@@ -30,14 +30,14 @@ const validParametersModule = {
   register: (server, options, next) => {
     const dbPromises = [];
     dbPromises.push(
-      distinctValues('WugCounty', 'vw2017MapSelectEntitiesInCounty'));
+      distinctValues('WugCounty', 'vwSelectEntitiesInCounty'));
     dbPromises.push(
-      distinctValues('WugRegion', 'vw2017MapSelectEntitiesInRegion'));
-    dbPromises.push(distinctValues('EntityId', 'vw2017MapEntityCoordinates'));
-    dbPromises.push(distinctValues('WugType', 'vw2017MapWugDemand'));
-    dbPromises.push(distinctValues('WmsProjectId', 'vw2017MapWMSProjects'));
-    dbPromises.push(distinctValues('WmsId', 'vw2017MapWMSWugSupply'));
-    dbPromises.push(distinctValues('WmsType', 'vw2017MapWMSProjectsByWmsType'));
+      distinctValues('WugRegion', 'vwSelectEntitiesInRegion'));
+    dbPromises.push(distinctValues('EntityId', 'vwEntityCoordinates'));
+    dbPromises.push(distinctValues('WugType', 'vwWugDemand'));
+    dbPromises.push(distinctValues('WMSProjectId', 'vwWMSProjects'));
+    dbPromises.push(distinctValues('WMSId', 'vwWMSWugSupply'));
+    dbPromises.push(distinctValues('WmsType', 'vwWMSProjectsByWmsType'));
     dbPromises.push(distinctSources());
 
     Promise.all(dbPromises)

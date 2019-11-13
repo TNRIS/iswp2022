@@ -4,10 +4,10 @@ import Hoek from 'hoek';
 import db from 'db';
 import {handleApiError} from 'lib/utils';
 
-const wmsTable = 'vw2017MapWMSWugSupply';
+const wmsTable = 'vwWMSWugSupply';
 
 //TODO: this table does not exist yet
-// const entitySummaryTable = 'vw2017MapEntitySummary';
+// const entitySummaryTable = 'vwEntitySummary';
 
 class WMSController {
   getAll(request, reply) {

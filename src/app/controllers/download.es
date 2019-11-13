@@ -7,7 +7,7 @@ import db from 'db';
 import constants from 'lib/constants';
 import {handleApiError} from 'lib/utils';
 
-const entityTable = 'vw2017MapEntityCoordinates';
+const entityTable = 'vwEntityCoordinates';
 
 const columnsToOmit = ['DisplayZero'];
 const omitCols = (data) => new Promise((resolve) => {

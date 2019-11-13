@@ -11,7 +11,7 @@ class PlacesController {
 
     const countyName = request.params.countyName.toUpperCase();
 
-    db.distinct('RegionLetter').from('vw2017MapSelectRegionsInCounty')
+    db.distinct('RegionLetter').from('vwSelectRegionsInCounty')
       .where('CountyName', countyName)
       .orderBy('RegionLetter')
       .then(R.compose(reply, R.pluck(['RegionLetter'])))
@@ -21,7 +21,7 @@ class PlacesController {
   getCountiesForEntity(request, reply) {
     Hoek.assert(request.params.entityId, 'request.params.entityId is required');
 
-    db.distinct('WugCounty').from('vw2017MapSelectEntitiesInCounty')
+    db.distinct('WugCounty').from('vwSelectEntitiesInCounty')
       .where('EntityId', request.params.entityId)
       .orderBy('WugCounty')
       .then(R.compose(reply, R.pluck(['WugCounty'])))
@@ -31,7 +31,7 @@ class PlacesController {
   getRegionsForEntity(request, reply) {
     Hoek.assert(request.params.entityId, 'request.params.entityId is required');
 
-    db.distinct('WugRegion').from('vw2017MapSelectEntitiesInRegion')
+    db.distinct('WugRegion').from('vwSelectEntitiesInRegion')
       .where('EntityId', request.params.entityId)
       .orderBy('WugRegion')
       .then(R.compose(reply, R.pluck(['WugRegion'])))

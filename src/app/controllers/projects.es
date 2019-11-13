@@ -4,7 +4,7 @@ import Hoek from 'hoek';
 import db from 'db';
 import {handleApiError} from 'lib/utils';
 
-const projectTable = 'vw2017MapWMSProjects';
+const projectTable = 'vwWMSProjects';
 
 
 class ProjectsController {

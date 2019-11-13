@@ -8,19 +8,19 @@ export default {
     population: 'P'
   },
   DATA_TABLES: {
-    demands: 'vw2017MapWugDemand',
-    needs: 'vw2017MapWugNeeds',
-    supplies: 'vw2017MapExistingWugSupply',
-    population: 'vw2017MapWugPopulation',
-    strategies: 'vw2017MapWMSWugSupply'
+    demands: 'vwWugDemand',
+    needs: 'vwWugNeeds',
+    supplies: 'vwExistingWugSupply',
+    population: 'vwWugPopulation',
+    strategies: 'vwWMSWugSupply'
   },
   SOURCE_TABLES: {
-    supplies: 'vw2017MapExistingWugSupply',
-    strategies: 'vw2017MapWMSWugSupply'
+    supplies: 'vwExistingWugSupply',
+    strategies: 'vwWMSWugSupply'
   },
   PROJECT_TABLES: {
-    strategies: 'vw2017MapWMSProjectByEntityWUGSplit',
-    wms: 'vw2017MapWMSProjectByWMS'
+    strategies: 'vwWMSProjectByEntityWUGSplit',
+    wms: 'vwWMSProjectByWMS'
   },
   API_CACHE_EXPIRES_IN: 60 * 60 * 24 * 1000
 };
