@@ -9,7 +9,7 @@ Web application for the 2022 Texas State Water Plan.
 1. Install [Node](https://nodejs.org/en/download/) >=8.9.2
 2. Install AWS Command Line Interface and configure with AWS credentials (IAM Key, Secret, Region). http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 3. Install [Yarn](https://yarnpkg.com/en/docs/install) >=1.1
-4. Download a copy of the water plan data sqlite3 database (https://s3.amazonaws.com/tnris-misc/iswp/2017/cache.db) and place it at `./src/app/db/cache.db` **(2022 database not yet currently built, using 2017 temporarily)**
+4. Download a copy of the water plan data sqlite3 database (https://s3.amazonaws.com/tnris-misc/iswp/2022/cache.db) and place it at `./src/app/db/cache.db`
 5. Install dependencies: cd into `./src` and run `yarn install`
 6. Install the custom Webfont by following the instructions in 'Webfont' section below
 
