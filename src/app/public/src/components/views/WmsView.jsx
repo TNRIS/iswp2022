@@ -135,7 +135,7 @@ export default class WMSView extends React.Component {
                                           theme={this.state.viewChoice.selectedTheme}
                                           view="wms"
                                            />
-                                        <h5>Download Data</h5>
+                                        {/* <h5>Download Data</h5>
                                         <ul>
                                           {
                                             ['strategies'].map((theme) => {
@@ -157,7 +157,7 @@ export default class WMSView extends React.Component {
                                               );
                                             })
                                           }
-                                        </ul>
+                                        </ul> */}
                                       </div>
                                     </div>
                                 </div>

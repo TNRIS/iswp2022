@@ -6,7 +6,7 @@
 {% endblock styles %}
 
 {% block title %}
-  <title>2017 Texas State Water Plan</title>
+  <title>2021 Draft Regional Water Plan Data</title>
 {% endblock title %}
 
 {% block content %}
@@ -17,7 +17,7 @@
           <div class="twelve columns">
             <h4>Error: Javascript is Required!</h4>
             Javascript is required to use the Interactive State Water Plan Application. <br />
-            Please enable Javascript in your browser, or visit <a title="2016 Regional Water Plans" href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2016/index.asp">http://www.twdb.texas.gov/waterplanning/rwp/plans/2016/index.asp</a>
+            Please enable Javascript in your browser, or visit <a title="2021 Regional Water Plans" href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp">http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp</a>
             to view Regional Water Plan data in the traditional viewer.
           </div>
         </div>

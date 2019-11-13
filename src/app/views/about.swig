@@ -2,7 +2,7 @@
 {% extends 'layout/layout.swig' %}
 
 {% block title %}
-  <title>About | 2017 Texas State Water Plan</title>
+  <title>About | 2021 Draft Regional Water Plan Data</title>
 {% endblock title %}
 
 {% block content %}

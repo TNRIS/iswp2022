@@ -120,7 +120,7 @@ export default class SourceView extends React.Component {
                           theme={selectedTheme} 
                           view='source'
                           />
-                          <h4>Download Data</h4>
+                          {/* <h4>Download Data</h4>
                           <ul>
                             {
                               constants.SRC_THEMES.map((theme) => {
@@ -142,7 +142,7 @@ export default class SourceView extends React.Component {
                                 );
                               })
                             }
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
 

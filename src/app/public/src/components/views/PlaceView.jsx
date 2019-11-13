@@ -180,7 +180,7 @@ export default class PlaceView extends React.Component {
                           theme={this.state.viewChoice.selectedTheme}
                           view={params.type.toLowerCase()}
                           />
-                        <h5>Download Data</h5>
+                        {/* <h5>Download Data</h5>
                         <ul>
                           {R
                             .prepend('population', constants.THEMES)
@@ -203,7 +203,7 @@ export default class PlaceView extends React.Component {
                               );
                             })
 }
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

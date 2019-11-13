@@ -136,7 +136,7 @@ export default class WmsTypeView extends React.Component {
                                           viewData={wmsTypeData.data}
                                           decade={this.state.viewChoice.selectedDecade}
                                           theme={this.state.viewChoice.selectedTheme} />
-                                        <h5>Download Data</h5>
+                                        {/* <h5>Download Data</h5>
                                         <ul>
                                           {
                                             ['strategies'].map((theme) => {
@@ -158,7 +158,7 @@ export default class WmsTypeView extends React.Component {
                                               );
                                             })
                                           }
-                                        </ul>
+                                        </ul> */}
                                       </div>
                                     </div>
                                 </div>

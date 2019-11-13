@@ -25,7 +25,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Helmet titleTemplate="%s | 2017 Texas State Water Plan"/>
+        <Helmet titleTemplate="%s | 2021 Draft Regional Water Plan Data"/>
         <Switch>
           <Route name="stateview" path="/statewide" component={StatewideView}/>
           <Route name="entityview" path="/entity/:entityId" component={EntityView}/>

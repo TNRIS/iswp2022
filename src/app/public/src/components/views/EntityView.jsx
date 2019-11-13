@@ -146,7 +146,7 @@ export default class EntityView extends React.Component {
                             theme={this.state.viewChoice.selectedTheme} 
                             view="entity"
                             />
-                            <h4>Download Data</h4>
+                            {/* <h4>Download Data</h4>
                             <ul>
                               {
                                 R.prepend('population', constants.THEMES).map((theme) => {
@@ -168,7 +168,7 @@ export default class EntityView extends React.Component {
                                   );
                                 })
                               }
-                            </ul>
+                            </ul> */}
                           </div>
                         </div>
 

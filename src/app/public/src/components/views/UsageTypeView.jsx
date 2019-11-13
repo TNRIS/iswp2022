@@ -155,7 +155,7 @@ export default class UsageTypeView extends React.Component {
                             view='usagetype'
                             decade={this.state.viewChoice.selectedDecade}
                             theme={this.state.viewChoice.selectedTheme} />
-                          <h5>Download Data</h5>
+                          {/* <h5>Download Data</h5>
                           <ul>
                             {
                               themeKeys.map((theme) => {
@@ -177,7 +177,7 @@ export default class UsageTypeView extends React.Component {
                                 );
                               })
                             }
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </div>

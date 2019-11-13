@@ -120,7 +120,7 @@ export default class ProjectView extends React.Component {
                           <ProjectPivotTable viewData={projectData.data}
                           decade={this.state.viewChoice.selectedDecade}
                           theme={selectedTheme} />
-                          <h4>Download Data</h4>
+                          {/* <h4>Download Data</h4>
                           <ul>
                             {
                               (() => {
@@ -142,7 +142,7 @@ export default class ProjectView extends React.Component {
                                 );
                               })()
                             }
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </div>
