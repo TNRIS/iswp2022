@@ -16,11 +16,12 @@
               <li><a href="#WhatIsThis">What is this site and what does it do?</a></li>
               <li><a href="#HowDoIFindData">How do I find the information I'm looking for?</a></li>
               <li><a href="#HowDoIUseTheMap">How do I use the interactive map?</a></li>
-              <li><a href="#StateWaterPlanData">State Water Plan Data</a></li>
+              <!-- <li><a href="#StateWaterPlanData">State Water Plan Data</a></li> -->
               <li><a href="#HowProjectsLocated">How are the locations of the projects determined?</a></li>
+              <li><a href="#DataSources">Data Sources</a></li>
               <li><a href="#Glossary">Glossary</a></li>
               <li><a href="#DownloadingData">Downloading Data</a></li>
-              <li><a href="#PreviousPlans">Previous Plans</a></li>
+              <li><a href="#PreviousPlans">Current and Previous State Water Plans</a></li>
               <li><a href="#AboutUs">About Us</a></li>
               <li><a href="#SitePolicies">Site Policies</a></li>
               <li><a href="#Credits">Credits</a></li>
@@ -31,7 +32,7 @@
             <p><a href="#Top"><small>Back to Top</small></a></p>
 
             <p>
-              This website is an integral part of the 2017 State Water Plan that lets water users statewide take an up-close look at data in the 2017 State Water Plan and how water needs change over time. The user-friendly website, which is also easily viewed on most mobile devices, now shows:
+              This website is a precursor to the 2021 State Water Plan that lets water users statewide take an up-close look at the 2021 Regional Water Plan data and how water needs change over time. The user-friendly website, which is also easily viewed on most mobile devices, shows:
             </p>
 
             <ul>
@@ -44,6 +45,37 @@
 
             <p>
               over the next 50 years in geographical and tabular forms. Note that all county-based water user group categories are mapped to the same location at the center of each county.
+            </p>
+
+            <p>
+              Development of the state water plan is central to the mission of the TWDB. Based on 16 regional water plans, the plan addresses the needs of all water user groups in the state – municipal, irrigation, manufacturing, livestock, mining, and steam-electric power – during a repeat of the drought of record that the state suffered in the 1950s. The regional and state water plans consider a 50-year planning horizon: 2020 through 2070.
+            </p>
+
+            <p>
+              During each five-year planning cycle, planning groups evaluate:
+            </p>
+
+            <ul>
+              <li>population projections,</li>
+              <li>water demand projections, and</li>
+              <li>existing water supplies that would be available during times of drought.</li>
+            </ul>
+
+            <p>
+              Planning groups identify:
+            </p>
+
+            <ul>
+              <li>water user groups that will not have enough water during times of drought, and</li>
+              <li>recommend strategies and projects that could be implemented to address shortages.</li>
+            </ul>
+
+            <p>
+              At the end of each five-year regional water planning cycle, agency staff compiles information from the approved regional water plans and other sources to develop the state water plan, which is presented to TWDB's governing Board for adoption. The final adopted plan is then submitted to the Governor, Lieutenant Governor, and the Texas Legislature.
+            </p>
+
+            <p>
+              The 2022 State Water Plan will be the eleventh state water plan and the fifth plan based on the regional water planning process. In addition to incorporating the regional water plans, the state water plan serves as a guide to state water policy.”
             </p>
           </section>
 
@@ -113,7 +145,7 @@
 
           </section>
 
-          <section id="StateWaterPlanData">
+          <!-- <section id="StateWaterPlanData">
             <h3>State Water Plan Data</h3>
             <p><a href="#Top"><small>Back to Top</small></a></p>
 
@@ -141,7 +173,7 @@
             <p>
               The <a href="http://www.twdb.texas.gov/waterplanning/swp/2017/index.asp" title="2017 State Water Plan">2017 State Water Plan</a> is the tenth state water plan and the fourth plan based on the regional water planning process. In addition to incorporating the regional water plans, the state water plan serves as a guide to state water policy.
             </p>
-          </section>
+          </section> -->
 
           <section id="HowProjectsLocated">
             <h3>How are the locations of the projects determined?</h3>
@@ -160,6 +192,15 @@
 
             <p>
               The actual locations and physical extent of recommended projects will vary and, in many instances such as pipelines, will encompass multiple geographic locations and facilities.
+            </p>
+          </section>
+
+          <section id="DataSources">
+            <h3>Data Sources</h3>
+            <p><a href="#Top"><small>Back to Top</small></a></p>
+
+            <p>
+              All data presented are based on the regional water planning data entry application used to collect data directly from the regional water planning groups.
             </p>
           </section>
 
@@ -233,14 +274,17 @@
               For any questions regarding the data or how to apply it, please contact: <a href="mailto:WRPdatarequests@twdb.texas.gov" title="">WRPdatarequests@twdb.texas.gov</a>
             </p>
 
-            <h4 id="API">API</h4>
+            <!-- <h4 id="API">API</h4>
             <p>
-              Data may be programmatically accessed using the Interactive 2017 State Water Plan API. See the <a href="/api/v1" title="API documentation">API documentation page</a> for a description of API methods.
-            </p>
+              Data may be programmatically accessed using the Interactive 2022 State Water Plan API. See the <a href="/api/v1" title="API documentation">API documentation page</a> for a description of API methods.
+            </p> -->
           </section>
 
           <section id="PreviousPlans">
             <h3>Previous Plans</h3>
+            <p>
+              Looking for the most current 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="http://2017.texasstatewaterplan.org">http://2017.texasstatewaterplan.org</a>.
+            </p>
             <p>
               Looking for the 2012 Interactive State Water Plan website? View it at <a title="2012 Interactive State Water Plan" href="http://2012.texasstatewaterplan.org">http://2012.texasstatewaterplan.org</a>.
             </p>
@@ -253,29 +297,10 @@
             <h3>About Us</h3>
             <p><a href="#Top"><small>Back to Top</small></a></p>
             <p>
-              This website is a product of the Texas Water Development Board (TWDB). This project is part of our ongoing efforts to communicate information from the 2017 State Water Plan to planners, scientists, policy makers, and the public.
+              This website is a product of the Texas Water Development Board (TWDB). This project is part of our ongoing efforts to communicate information from the state and regional water plans to planners, scientists, policy makers, and the public.
             </p>
             <p>
-              TWDB is charged by the Texas Legislature with administering the regional water planning process and developing a state water plan every five years. The data presented are the result of that process and are based on the expertise of numerous people and organizations throughout the state of Texas who participated in development of the 2016 Regional Water Plans, including the more than 450 regional water planning group members, consultants, and administrative agencies; staff of the TWDB; Texas Parks and Wildlife Department, Texas Department of Agriculture, and Texas Commission on Environmental Quality; and the individuals and organizations that provided public input throughout the planning process.
-            </p>
-
-            <h4>How Do We Plan?</h4>
-            <p>
-              Water planning in Texas starts at the regional level with 16 regional water planning groups, one for each of the 16 designated planning areas in the state. Each planning group consists of about 25 members who represent at least 12 interests, as required by Texas statute, including agriculture, industry, public, environment, municipalities, business, water districts, river authorities, water utilities, counties, power generation, and groundwater management areas.
-            </p>
-            <p>
-              During each five-year planning cycle, planning groups evaluate population projections, water demand projections, and existing water supplies that would already be available during times of drought for 2,600 water user groups. Planning groups identify water user groups that will not have enough water during times of drought, recommend strategies that could be implemented to address shortages, and estimate the costs of these strategies. While carrying out these tasks, planning groups assess risks and uncertainties in the planning process and evaluate potential impacts of water management strategies on the state's water, agricultural, and natural resources.
-            </p>
-            <p>
-              Once the planning groups adopt their regional water plans, they are submitted to the TWDB &mdash; the state's water supply planning and financing agency &mdash; for approval. TWDB then compiles the state water plan, which serves as a guide to state water policy, with information from the regional water plans and policy recommendations to the Texas Legislature. Each step of the process is open to the public and provides numerous opportunities for public input.
-            </p>
-
-            <h4>Data Sources</h4>
-            <p>
-              All data presented are based on the sixteen <a href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2016/index.asp" title="2016 Regional Water Plans">2016 Regional Water Plans</a> and the <a href="http://www.twdb.texas.gov/waterplanning/swp/2017/index.asp" title="2017 State Water Plan">2017 State Water Plan</a>. The water planning data are based on the Regional Water Planning Data Application used to collect data directly from the regional water planning groups.
-            </p>
-            <p>
-              Statewide summaries of the data presented were published in the <a href="http://www.twdb.texas.gov/waterplanning/swp/2017/" title="2017 State Water Plan">2017 State Water Plan</a>.
+              TWDB is charged by the Texas Legislature with administering the regional water planning process and developing a state water plan every five years. The data presented are the result of that process and are based on the expertise of numerous people and organizations throughout the state of Texas who participate in development of the regional water plans, including the more than 450 regional water planning group members, consultants, and administrative agencies; staff of the TWDB; Texas Parks and Wildlife Department, Texas Department of Agriculture, and Texas Commission on Environmental Quality; and the individuals and organizations that provided public input throughout the planning process.
             </p>
           </section>
 
@@ -291,7 +316,7 @@
               The TWDB analyzes server logs for statistical purposes only and makes no attempt to personally identify website visitors. The TWDB does not collect any personally identifiable information, such as names, addresses, phone numbers or e-mail addresses, unless you choose to provide such information. Statistics such as time, date, or pages requested are used for accessing the information of most interest to users and identifying system performance or problem areas. This information is also gathered for anonymous File Transfer Protocol (ftp), remote account login, or for other comparable connections. Information that may be collected at this website through questionnaires, feedback forms, or other means, enables the TWDB to determine a visitor's interests, with the goal of providing better customer service.
             </p>
             <p>
-              All information collected, including server log information and information submitted on electronic forms, is subject to disclosure to others upon request according to the requirements of the Public Information Act (codified at Texas Government  Code, Section 552.011, Vernon's 2000) and the State Government Privacy Policies Act (codified at Texas Government Code, Section 559, Vernon's 2001). Information collected by electronic mail and by web forms may be subject to the Public Information Act; however, email addresses of those who correspond with the TWDB are confidential and may not be disclosed unless the sender agrees to such. Exceptions to confidentiality may be reviewed at Texas Government code, Section 552.137.
+              All information collected, including server log information and information submitted on electronic forms, is subject to disclosure to others upon request according to the requirements of the Public Information Act (codified at Texas Government Code, Section 552.011, Vernon's 2000) and the State Government Privacy Policies Act (codified at Texas Government Code, Section 559, Vernon's 2001). Information collected by electronic mail and by web forms may be subject to the Public Information Act; however, email addresses of those who correspond with the TWDB are confidential and may not be disclosed unless the sender agrees to such. Exceptions to confidentiality may be reviewed at Texas Government code, Section 552.137.
             </p>
             <p>
               By sending the TWDB an electronic mail message or submitting a web-based form, you may be sending the agency personally identifying information, such as name and address. In these cases, the TWDB may retain the information as long as necessary to respond to your request or otherwise resolve the subject matter of your e-mail. The TWDB may redirect your message to another government agency or person who is in a better position to answer your question as necessary. Please be aware that e-mails and web-based forms are not necessarily secure from third-party interception or misdirection. For your own protection, you may wish to communicate sensitive information using another method.
@@ -315,20 +340,20 @@
 
             <h4>Website Link Policy</h4>
             <p>
-              This website provides links to other websites, both public and private, for informational purposes. This policy does not apply whenever visitors leave the Interactive 2017 Texas State Water Plan website and follow a link to another website, including the websites of other state agencies and local governments.  Links to other websites from this website are provided solely as a courtesy. The TWDB has no control over the posting of material to such websites and cannot take responsibility for the validity of the content. The TWDB endeavors to follow the <a href="http://www.dir.texas.gov/pubs/retired/Pages/srrpub11-agencylink.aspx" title="State Website Link and Privacy Policy">State Website Link and Privacy Policy</a>, which addresses linking to and from state agency websites. TWDB encourages organizations that link to this website to comply with the provisions of the <a href="http://www.dir.texas.gov/pubs/retired/Pages/srrpub11-agencylink.aspx" title="State Website Link and Privacy Policy">State Website Link and Privacy Policy</a>, especially regarding protection of the privacy rights of individuals, and to make reasonable efforts to provide accessible websites.
+              This website provides links to other websites, both public and private, for informational purposes. This policy does not apply whenever visitors leave the website and follow a link to another website, including the websites of other state agencies and local governments. Links to other websites from this website are provided solely as a courtesy. The TWDB has no control over the posting of material to such websites and cannot take responsibility for the validity of the content. The TWDB endeavors to follow the State Website Link and Privacy Policy, which addresses linking to and from state agency websites. TWDB encourages organizations that link to this website to comply with the provisions of the State Website Link and Privacy Policy, especially regarding protection of the privacy rights of individuals, and to make reasonable efforts to provide accessible websites.
             </p>
 
             <h4>Cookies</h4>
             <p>
-              A cookie is a small text file that resides on the user's hard drive, created at the request of the web server to track specific information.  The Interactive 2017 Texas State Water Plan Website will use cookies to create session information to facilitate your use of the site. The information contained in these cookies is randomly created information and contain no personally identifiable information, so your anonymity is preserved. These cookies are not stored or tracked after the session ends.
+              A cookie is a small text file that resides on the user's hard drive, created at the request of the web server to track specific information. The website will use cookies to create session information to facilitate your use of the site. The information contained in these cookies is randomly created information and contain no personally identifiable information, so your anonymity is preserved. These cookies are not stored or tracked after the session ends.
             </p>
 
             <h4>Disclaimer</h4>
             <p>
-              With respect to documents or information available from this website, or documents or information from other servers made available through  this website, neither the TWDB nor any of their employees, nor any of their contractors, subcontractors, or their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular  purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.
+              With respect to documents or information available from this website, or documents or information from other servers made available through this website, neither the TWDB nor any of their employees, nor any of their contractors, subcontractors, or their employees, makes any warranty, express or implied, including the warranties of merchantability and fitness for a particular purpose, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.
             </p>
             <p>
-              TWDB makes no effort to independently verify, and does not exert editorial  control over, information on pages outside of the Interactive 2017 Texas State Water Plan website. TWDB advises website visitors to read the privacy policies of any third-party websites accessed through this website. TWDB does not endorse any of the products, vendors, consultants, or documentation referenced in this website. Any mention of vendors, products, or services is for informational purposes only.
+              TWDB makes no effort to independently verify, and does not exert editorial control over, information on pages outside of the website. TWDB advises website visitors to read the privacy policies of any third-party websites accessed through this website. TWDB does not endorse any of the products, vendors, consultants, or documentation referenced in this website. Any mention of vendors, products, or services is for informational purposes only.
             </p>
 
             <h4>Copyright Policy</h4>
@@ -337,23 +362,38 @@
             </p>
 
             <h4>Accessibility Policy</h4>
-            <p><i>Due to current technology constraints, there are some instances where the TWDB is unable to provide information in an accessible format (e.g. mapping information).</i></p>
-            <h5>Policy Intention</h5>
-            <p>The intention of this policy is to state clear accessibility principles that all Texas Water Development Board (TWDB) websites must follow.</p>
+            <p>
+              <i>
+                Due to current technology constraints, there are some instances where the TWDB is unable to provide information in an accessible format (e.g. mapping information).
+              </i>
+            </p>
 
-            <p>The TWDB strives to ensure all of its websites comply with the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines</a> (WCAG) when possible without causing undue burden to the agency.&nbsp; The TWDB will be monitoring these sections and will develop accessible solutions as technology improves.&nbsp; In order to ensure no user is disadvantaged, the TWDB will respond to all accessibility assistance requests by either altering the necessary content as soon as possible or, if requested, by providing the information in an alternative format at no cost to the user within a reasonable timeframe.&nbsp; It is the responsibility of the webpage owner to provide these alternative formats.&nbsp; The TWDB websites will provide appropriate channels of communication that allow visitors to request alternative formats and to give feedback about any accessibility problems.</p>
+            <h5>Policy Intention</h5>
+            <p>
+              The intention of this policy is to state clear accessibility principles that all Texas Water Development Board (TWDB) websites must follow.
+            </p>
+
+            <p>
+              The TWDB strives to ensure all of its websites comply with the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines</a> (WCAG) when possible without causing undue burden to the agency. The TWDB will be monitoring these sections and will develop accessible solutions as technology improves. In order to ensure no user is disadvantaged, the TWDB will respond to all accessibility assistance requests by either altering the necessary content as soon as possible or, if requested, by providing the information in an alternative format at no cost to the user within a reasonable timeframe. It is the responsibility of the webpage owner to provide these alternative formats. The TWDB websites will provide appropriate channels of communication that allow visitors to request alternative formats and to give feedback about any accessibility problems.
+            </p>
 
             <h5>Policy Dimensions</h5>
-            <p>For the purpose of this policy, the term "websites" includes:</p>
+            <p>
+              For the purpose of this policy, the term "websites" includes:
+            </p>
             <ul>
               <li>All websites (public and non-authenticated) managed and maintained by TWDB staff or on the behalf of TWDB, including, all external websites using the .twdb.texas.gov domain, agency ancillary sites, and social media sites.</li>
               <li>All material associated with pages of the website such as documents, audio, video and any other additional files except for maps.</li>
             </ul>
 
             <h5>To Get Information in a Different Format</h5>
-            <p>If you use assistive technology and the format of any material on our website interferes with your ability to access information, please send an e-mail to the TWDB <a href="mailto:ac@twdb.texas.gov">Accessibility Coordinator</a>.</p>
+            <p>
+              If you use assistive technology and the format of any material on our website interferes with your ability to access information, please send an e-mail to the TWDB <a href="mailto:ac@twdb.texas.gov">Accessibility Coordinator</a>.
+            </p>
 
-            <p>When you contact us, please be sure to tell us each of these points:</p>
+            <p>
+              When you contact us, please be sure to tell us each of these points:
+            </p>
             <ul>
               <li>the nature of your accessibility problem</li>
               <li>the format in which you prefer to receive the material</li>
@@ -361,7 +401,9 @@
               <li>how we can contact you</li>
             </ul>
 
-            <p>With this information, we will be able to respond in the most helpful way possible.</p>
+            <p>
+              With this information, we will be able to respond in the most helpful way possible.
+            </p>
 
           </section>
 
