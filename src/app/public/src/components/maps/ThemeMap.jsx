@@ -256,13 +256,13 @@ export default class ThemeMap extends React.Component {
             const decadeProjects = R.filter(decades, props.projects)
 
             const projectFeatures = R.map((prj) => {
-                const displayCost = prj.CapitalCost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                const displayCost = prj.CapitalCost ? "$" + prj.CapitalCost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : "n/a";
 
                 const projectProperties = {
                     'ProjectName': prj.ProjectName,
                     'OnlineDecade': prj.OnlineDecade,
                     'ProjectSponsors': prj.ProjectSponsors,
-                    'CapitalCost': "$" + displayCost,
+                    'CapitalCost': displayCost,
                     'WmsProjectId': prj.WmsProjectId,
                     'DisplayProjectInMap': prj.DisplayProjectInMap
                 };

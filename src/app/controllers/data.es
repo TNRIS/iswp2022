@@ -15,7 +15,7 @@ const entityTable = 'vwEntityCoordinates';
 const summaryTables = {
   demands: 'vwWugDemandsA1',
   needs: 'vwWugNeedsA1',
-  supplies: 'vwExistingWugSupplyA1',
+  supplies: 'vwExistingWUGSupplyA1',
   population: 'vwWugPopulationA1',
   strategies: 'vwWMSWugSupplyA1'
 };

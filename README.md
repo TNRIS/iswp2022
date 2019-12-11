@@ -6,7 +6,7 @@ Web application for the 2022 Texas State Water Plan.
 
 ### Prerequesites:
 
-1. Install [Node](https://nodejs.org/en/download/) >=8.9.2
+1. Install [Node](https://nodejs.org/en/download/) >=8.16.1
 2. Install AWS Command Line Interface and configure with AWS credentials (IAM Key, Secret, Region). http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 3. Install [Yarn](https://yarnpkg.com/en/docs/install) >=1.1
 4. Download a copy of the water plan data sqlite3 database (https://s3.amazonaws.com/tnris-misc/iswp/2022/cache.db) and place it at `./src/app/db/cache.db`
@@ -37,3 +37,10 @@ Upon the first local build, errors on startup may be related to the initial webp
 #### Staging
 
 You can also build and run the app with `NODE_ENV` set to "staging" to make a version that serves a non-indexed robots.txt and does not use the production Google Analytics code. Otherwise follow the Production steps from above.
+
+#### Temp Code changes for 2022 data while in progress. TODO!
+
+these can be reverted after data is clean and finalized.
+
+1. `src/app/public/src/util/CustomPropTypes.es`, line 63; CapitalCost requirement should be reinstated once all null values have been populated.-- `.isRequired`
+2. `src/app/public/src/util/CustomPropTypes.es`, line 64; OnlineDecade requirement should be reinstated once all null values have been populated. 'OneOf' for decade options should be reinstated also-- `.oneOf(constants.DECADES).isRequired`

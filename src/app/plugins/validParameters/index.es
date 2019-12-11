@@ -35,8 +35,8 @@ const validParametersModule = {
       distinctValues('WugRegion', 'vwSelectEntitiesInRegion'));
     dbPromises.push(distinctValues('EntityId', 'vwEntityCoordinates'));
     dbPromises.push(distinctValues('WugType', 'vwWugDemand'));
-    dbPromises.push(distinctValues('WMSProjectId', 'vwWMSProjects'));
-    dbPromises.push(distinctValues('WMSId', 'vwWMSWugSupply'));
+    dbPromises.push(distinctValues('WmsProjectId', 'vwWMSProjects'));
+    dbPromises.push(distinctValues('WmsId', 'vwWMSWugSupply'));
     dbPromises.push(distinctValues('WmsType', 'vwWMSProjectsByWmsType'));
     dbPromises.push(distinctSources());
 
