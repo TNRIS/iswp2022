@@ -14,10 +14,10 @@ export default class extends React.Component {
     return (
       <div>
         <p>
-          {RegionDescriptions.description[region]} <a href={`http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/#region-${region.toLowerCase()}`}>
+          {RegionDescriptions.description[region]} <a href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp">http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp</a>.
+          {/* {RegionDescriptions.description[region]} <a href={`http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/#region-${region.toLowerCase()}`}>
             http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/#region-{region.toLowerCase()}
-          </a>.
-          {/* &nbsp;{RegionDescriptions.regionalLink[region]} <a href={`http://www.twdb.texas.gov/waterplanning/swp/2022/doc/2021_RegionalSummary_${region}.pdf`}>
+          </a>. {RegionDescriptions.regionalLink[region]} <a href={`http://www.twdb.texas.gov/waterplanning/swp/2022/doc/2021_RegionalSummary_${region}.pdf`}>
             http://www.twdb.texas.gov/waterplanning/swp/2017/doc/2016_RegionalSummary_{region}.pdf
           </a>. */}
         </p>
