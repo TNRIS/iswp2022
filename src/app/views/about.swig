@@ -226,6 +226,7 @@
 
           <section id="PreviousPlans">
             <h3>Where can I access current and previous state water plans?</h3>
+            <p><a href="#Top"><small>Back to Top</small></a></p>
             <p>
               Looking for the most current 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="http://2017.texasstatewaterplan.org">http://2017.texasstatewaterplan.org</a>.
             </p>
