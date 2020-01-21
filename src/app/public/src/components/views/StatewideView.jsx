@@ -129,7 +129,7 @@ export default class StatewideView extends React.Component {
                           <li>the water management strategies recommended to address potential shortages, and</li>
                           <li>recommended capital projects and their sponsors.</li>
                         </ul>
-                        <p>The final regional water plan data will be used in the development of the 2022 State Water Plan which is central to the mission of the Texas Water Development Board. Based on 16 regional water plans, the state water plan addresses the needs of all water user groups in the state – municipal, irrigation, manufacturing, livestock, mining, and steam-electric power – during a repeat of the drought of record that the state suffered in the 1950s. The regional and state water plans consider a 50-year planning horizon: 2020 through 2070.</p>
+                        <p>The final regional water plan data will be used in the development of the 2022 State Water Plan which is central to the mission of the Texas Water Development Board. Based on 16 regional water plans, the state water plan addresses the needs of all water user groups in the state – municipal, irrigation, manufacturing, livestock, mining, and steam-electric power – during a repeat of the drought of record. The regional and state water plans consider a 50-year planning horizon: 2020 through 2070.</p>
                       </div>
                     </div>
 

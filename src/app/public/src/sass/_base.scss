@@ -147,8 +147,10 @@ select {
     padding-right: 1rem;
     margin-bottom: 1rem;
 
-    @media (min-width: $media-m) {
+    @media (min-width: $media-s) {
       width: 200px;
+      margin-right: 160px;
+      float: right;
     }
   }
 

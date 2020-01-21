@@ -101,7 +101,7 @@
             <img src="/public/static/img/HowDoIUseTheMap.png" width="90%" style="padding:10px;">
 
             <p>
-              Due to the nature of the state water plan data not everything is relevant to display on the map. Please keep the following in mind when exploring the interactive maps:
+              Due to the nature of the state water plan data, not everything is relevant to display on the map. Please keep the following in mind when exploring the interactive maps:
             </p>
             <ul>
               <li>The map for a selected region page will only display projects that benefit water user group splits within that planning region.</li>
@@ -242,10 +242,10 @@
             <h3>Glossary</h3>
             <p><a href="#Top"><small>Back to Top</small></a></p>
 
-            <p>
-              For these and other terms, see also the 2017 State Water Plan
+            {#<p>
+              For these and other terms, see also the 2022 State Water Plan
               <a title="Glossary" href="http://www.twdb.texas.gov/waterplanning/swp/2017/chapters/10-SWP17-GLOSSARY-APPENDICES.pdf?d=3717.1800000000003">glossary</a>.
-            </p>
+            </p>#}
 
             <h5 id="acre-foot">ACRE-FOOT</h5>
             <p>
@@ -294,8 +294,16 @@
 
             <h5 id="water-user-group">WATER USER GROUP</h5>
             <p>
-              Identified user or group of users for which water demands and water supplies have been identified and analyzed and plans developed to meet water needs. Water user groups are defined at the county level for the manufacturing, irrigation, livestock, steam-electric power generation, and mining water use categories. Municipal water user groups include (a) incorporated cities and selected Census Designated Places with a population of 500 or more; (b) individual or groups of selected water utilities serving smaller municipalities or unincorporated areas; and (c) rural areas not included in a listed city or utility, aggregated for each county.
+              Municipal WUGs in the 2021 Regional Water Plans (RWPGs) are defined as:<br>
+              <div class="tab">
+                a) Privately-owned utilities that provide an average of more than 100 acre-feet per year for municipal use for all owned water systems;<br>
+                b) Public water systems serving institutions or facilities owned by the state or federal government that provide more than 100 acre-feet per year for municipal use;<br>
+                c) All other retail public water utilities not covered in paragraphs (a) and (b) that provide more than 100 acre-feet per year for municipal use;<br>
+                d) Collective Reporting Units, or groups of retail public Utilities that have a common association and are requested for inclusion by the Regional Water Planning Groups (RWPGs); and<br>
+                e) Municipal and domestic water use, referred to as County-Other, not included in paragraphs (a)-(d) of this subsection<br>
+              </div>
             </p>
+
           </section>
 
           <section id="AboutUs">
@@ -332,8 +340,8 @@
               An individual who submits information in electronic format through this website is entitled, on request, to receive and review the information that the TWDB collects about the individual, and to have TWDB correct the information. To make a request, please contact the following person:
             </p>
             <p class="indent">
-              Public Information Officer<br/>
-              Telephone: <a href="tel:+15124638165">(512) 463-8165</a><br/>
+              Public Information Coordinator<br/>
+              Telephone: <a href="tel:+15124638061">(512) 463-8061</a><br/>
               Info Desk: <a href="tel:+15124637847">(512) 463-7847</a><br/>
               E-mail: <a href="mailto:publicinfo@twdb.texas.gov">publicinfo@twdb.texas.gov</a>
             </p>
@@ -345,7 +353,7 @@
 
             <h4>Website Link Policy</h4>
             <p>
-              This website provides links to other websites, both public and private, for informational purposes. This policy does not apply whenever visitors leave the website and follow a link to another website, including the websites of other state agencies and local governments. Links to other websites from this website are provided solely as a courtesy. The TWDB has no control over the posting of material to such websites and cannot take responsibility for the validity of the content. The TWDB endeavors to follow the <a href="https://www.dir.texas.gov/pubs/retired/Pages/srrpub11-agencylink.aspx">State Website Link and Privacy Policy</a>, which addresses linking to and from state agency websites. TWDB encourages organizations that link to this website to comply with the provisions of the <a href="https://www.dir.texas.gov/pubs/retired/Pages/srrpub11-agencylink.aspx">State Website Link and Privacy Policy</a>, especially regarding protection of the privacy rights of individuals, and to make reasonable efforts to provide accessible websites.
+              This website provides links to other websites, both public and private, for informational purposes. This policy does not apply whenever visitors leave the website and follow a link to another website, including the websites of other state agencies and local governments. Links to other websites from this website are provided solely as a courtesy. The TWDB has no control over the posting of material to such websites and cannot take responsibility for the validity of the content. The TWDB endeavors to follow the <a href="https://dir.texas.gov/View-About-DIR/Pages/Content.aspx?id=21">State Website Link and Privacy Policy</a>, which addresses linking to and from state agency websites. TWDB encourages organizations that link to this website to comply with the provisions of the <a href="https://dir.texas.gov/View-About-DIR/Pages/Content.aspx?id=21">State Website Link and Privacy Policy</a>, especially regarding protection of the privacy rights of individuals, and to make reasonable efforts to provide accessible websites.
             </p>
 
             <h4>Cookies</h4>
