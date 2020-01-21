@@ -7,6 +7,9 @@ src/app/public/dist/*
 gill-sans/
 gill-sans.*
 
+# Documents
+docs/
+
 # Logs
 logs
 *.log
