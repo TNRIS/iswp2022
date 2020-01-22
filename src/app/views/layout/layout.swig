@@ -31,9 +31,12 @@
           <div class="header-title-container">
             <div class="header-title wrapper">
               <h1>
-                <a href="/" title="Home"><span class="first-line">2021</span><br/>Draft Regional Water Plan Data</a>
+                <a href="/" title="Home">
+                  <span class="first-line">2021</span><br/>
+                  Draft Regional Water Plan Data
+                </a>
               </h1>
-              <span class="by-the show-medium">by the</span>
+              <!-- <span class="by-the show-medium">by the</span> -->
               <a href="http://www.twdb.texas.gov" title="Texas Water Development Board">
                 <img src="/public/static/img/twdb-logo-dark-bkgd-w200px-3c.png" class="logo" />
               </a>

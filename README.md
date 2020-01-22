@@ -22,9 +22,10 @@ This command should do it for you (requires aws cli and credentials): cd into `.
 
 ### Developing
 All commands run from src directory: `cd src` from project root
-Upon the first local build, errors on startup may be related to the initial webpack assests not existing yet. If you encounter errors on the initial build, try running `yarn run webpack` and then continue to run the commands below.
 
-* `yarn run dev-start` in a terminal to continuously build client-side scripts and css and serve the application
+Upon the first local build, errors on startup may be related to the initial webpack assets not existing yet. If you encounter errors on the initial build, try running `yarn run webpack` and then continue to run the commands below.
+
+* `yarn run dev-start` in a terminal to continuously build client-side scripts and css and serve the application. view at http://localhost:3333.
 
 * `yarn test` to run the test scripts
 
@@ -32,7 +33,7 @@ Upon the first local build, errors on startup may be related to the initial webp
 
 #### Production
 
-1. make sure you can build the app locally, then just hop over to deployments repo and follow those instructions
+1. make sure you can build the app locally, then just hop over to the deployments repo [here](https://github.com/TNRIS/aws-tnris-deployments/tree/master/iswp2022) and follow the instructions.
 
 #### Staging
 
