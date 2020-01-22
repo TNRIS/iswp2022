@@ -142,15 +142,20 @@ select {
 
   .logo {
     display: inline-block;
-    width: 120px;
+    width: 140px;
     vertical-align: bottom;
     padding-right: 1rem;
     margin-bottom: 1rem;
+    margin-left: 3rem;
 
-    @media (min-width: $media-s) {
+    @media (min-width: $media-l) {
       width: 200px;
-      margin-right: 160px;
       float: right;
+      margin-right: 160px;
+    }
+
+    @media (max-width: $media-s) {
+      margin-left: 0;
     }
   }
 
