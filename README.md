@@ -33,7 +33,7 @@ Upon the first local build, errors on startup may be related to the initial webp
 
 #### Production
 
-1. make sure you can build the app locally, then just hop over to deployments repo and follow those instructions
+1. make sure you can build the app locally, then just hop over to the deployments repo [here](https://github.com/TNRIS/aws-tnris-deployments/tree/master/iswp2022) and follow the instructions.
 
 #### Staging
 
