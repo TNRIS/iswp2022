@@ -23,7 +23,7 @@
         <![endif]-->
         <div class="draft-note">
           <div class="wrapper">
-            Please visit the 2021 Draft Regional Water Plan homepage to view the published plan at: <a title="TWDB State Water Planning home" href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp" target="_blank">http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp</a>.
+            The draft data displayed in this web application is to assist in review of the draft regional water plans and is as of 3/13/2020. Some features may not display properly until the data has been finalized (e.g. mapped sources). Although the data is subject to change as the draft plans are reviewed, the data displayed will not be refreshed until final regional water plans are approved (early 2021). Please visit the 2021 Draft Regional Water Plan homepage to view the published plan at: <a title="TWDB State Water Planning home" href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp" target="_blank">http://www.twdb.texas.gov/waterplanning/rwp/plans/2021/index.asp</a>.
           </div>
         </div>
         <header class="header" id="Top">
