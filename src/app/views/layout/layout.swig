@@ -69,13 +69,13 @@
     </div>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-491601-17"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ gaTrackingCode }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-491601-17');
+      gtag('config', '{{ gaTrackingCode }}');
     </script>
 
     <script>
