@@ -8,7 +8,7 @@ const config = {
 
 if (process.env.NODE_ENV === 'production') {
   merge(config, {
-    gaTrackingCode: 'UA-491601-13',
+    gaTrackingCode: 'UA-491601-17',
   });
 }
 
