@@ -184,7 +184,7 @@ export default class StatewideView extends React.Component {
                           <RegionalSummaryTable viewData={data}
                             decade={this.state.viewChoice.selectedDecade}
                             theme={this.state.viewChoice.selectedTheme} />
-                          {/* <h5>Download Data</h5>
+                          <h5>Download Data</h5>
                           <ul>
                             {
                               R.prepend('population', constants.THEMES).map((theme) => {
@@ -205,7 +205,7 @@ export default class StatewideView extends React.Component {
                                 );
                               })
                             }
-                          </ul> */}
+                          </ul>
                         </div>
                       </div>
                     </div>

@@ -143,10 +143,10 @@ export default class EntityView extends React.Component {
                             <span className="view-name">WATER USER GROUP - {title}</span>
                             <PlacePivotTable viewData={entityData.data}
                             decade={this.state.viewChoice.selectedDecade}
-                            theme={this.state.viewChoice.selectedTheme} 
+                            theme={this.state.viewChoice.selectedTheme}
                             view="entity"
                             />
-                            {/* <h4>Download Data</h4>
+                            <h4>Download Data</h4>
                             <ul>
                               {
                                 R.prepend('population', constants.THEMES).map((theme) => {
@@ -168,7 +168,7 @@ export default class EntityView extends React.Component {
                                   );
                                 })
                               }
-                            </ul> */}
+                            </ul>
                           </div>
                         </div>
 
