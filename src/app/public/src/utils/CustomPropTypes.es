@@ -60,10 +60,10 @@ const TreemapData = PropTypes.shape({
 });
 
 const ProjectData = PropTypes.arrayOf(PropTypes.shape({
-  CapitalCost: PropTypes.number,
-  // CapitalCost: PropTypes.number.isRequired,
-  OnlineDecade: PropTypes.string,
-  // OnlineDecade: PropTypes.oneOf(constants.DECADES).isRequired,
+  // CapitalCost: PropTypes.number,
+  CapitalCost: PropTypes.number.isRequired,
+  // OnlineDecade: PropTypes.string,
+  OnlineDecade: PropTypes.oneOf(constants.DECADES).isRequired,
   ProjectName: PropTypes.string.isRequired,
   ProjectSponsors: PropTypes.string.isRequired,
   WmsProjectId: PropTypes.number,

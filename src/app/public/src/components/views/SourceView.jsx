@@ -117,10 +117,10 @@ export default class SourceView extends React.Component {
                           <span className="view-name">WATER SOURCE - {title}</span>
                           <PlacePivotTable viewData={sourceData.data}
                           decade={this.state.viewChoice.selectedDecade}
-                          theme={selectedTheme} 
+                          theme={selectedTheme}
                           view='source'
                           />
-                          {/* <h4>Download Data</h4>
+                          <h4>Download Data</h4>
                           <ul>
                             {
                               constants.SRC_THEMES.map((theme) => {
@@ -142,7 +142,7 @@ export default class SourceView extends React.Component {
                                 );
                               })
                             }
-                          </ul> */}
+                          </ul>
                         </div>
                       </div>
 

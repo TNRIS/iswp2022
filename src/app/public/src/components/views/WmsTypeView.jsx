@@ -42,7 +42,7 @@ export default class WmsTypeView extends React.Component {
     }
 
     componentDidUpdate = () => {
-        // if population theme selection is hidden but it is the currently 
+        // if population theme selection is hidden but it is the currently
         // selected theme, then update the theme choice to 'needs'
         if (this.state.hidePopulation && this.state.viewChoice.selectedTheme === 'population') {
             DataViewChoiceActions.updateThemeChoice('strategies');
@@ -85,7 +85,7 @@ export default class WmsTypeView extends React.Component {
         let projectTable;
 
         if (wmsTypeData.hasOwnProperty('data') && wmsTypeData.data.hasOwnProperty('projects')) {
-            projectTable = 
+            projectTable =
                 <div className="row panel-row">
                     <div className="twelve columns">
                         <span className="view-name">WMS TYPE - {title}</span>
@@ -136,7 +136,7 @@ export default class WmsTypeView extends React.Component {
                                           viewData={wmsTypeData.data}
                                           decade={this.state.viewChoice.selectedDecade}
                                           theme={this.state.viewChoice.selectedTheme} />
-                                        {/* <h5>Download Data</h5>
+                                        <h5>Download Data</h5>
                                         <ul>
                                           {
                                             ['strategies'].map((theme) => {
@@ -158,7 +158,7 @@ export default class WmsTypeView extends React.Component {
                                               );
                                             })
                                           }
-                                        </ul> */}
+                                        </ul>
                                       </div>
                                     </div>
                                 </div>
