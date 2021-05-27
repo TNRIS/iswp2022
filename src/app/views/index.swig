@@ -6,7 +6,7 @@
 {% endblock styles %}
 
 {% block title %}
-  <title>2021 Draft Regional Water Plan Data</title>
+  <title>2022 Regional Water Plan Data</title>
 {% endblock title %}
 
 {% block content %}

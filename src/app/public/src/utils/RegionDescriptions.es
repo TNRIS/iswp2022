@@ -17,26 +17,6 @@ const description = {
   P: "The Lavaca (Region P) Regional Water Planning Area is composed of Jackson and Lavaca counties and Precinct Three of Wharton County, including the entire City of El Campo. Other cities in the region include Edna, Yoakum, and Hallettsville. Most of the region lies in the Lavaca River Basin. The 2021 Regional Water Plans can be found on the TWDB website at:"
 };
 
-const regionalLink = {
-  A: "A summary of the 2021 [Panhandle A] Draft Regional Water Plan can be found at",
-  B: "A summary of the 2021 [Region B] Draft Regional Water Plan can be found at",
-  C: "A summary of the 2021 [Region C] Draft Regional Water Plan can be found at",
-  D: "A summary of the 2021 [North East Texas D] Draft Regional Water Plan can be found at",
-  E: "A summary of the 2021 [Far West Texas E] Draft Regional Water Plan can be found at",
-  F: "A summary of the 2021 [Region F] Draft Regional Water Plan can be found at",
-  G: "A summary of the 2021 [Brazos G] Draft Regional Water Plan can be found at",
-  H: "A summary of the 2021 [Region H] Draft Regional Water Plan can be found at",
-  I: "A summary of the 2021 [East Texas I] Draft Regional Water Plan can be found at",
-  J: "A summary of the 2021 [Plateau J] Draft Regional Water Plan can be found at",
-  K: "A summary of the 2021 [Lower Colorado K] Draft Regional Water Plan can be found at",
-  L: "A summary of the 2021 [South Central Texas L] Draft Regional Water Plan can be found at",
-  M: "A summary of the 2021 [Rio Grande M] Draft Regional Water Plan can be found at",
-  N: "A summary of the 2021 [Coastal Bend N] Draft Regional Water Plan can be found at",
-  O: "A summary of the 2021 [Region O] Draft Regional Water Plan can be found at",
-  P: "A summary of the 2021 [Lavaca P] Draft Regional Water Plan can be found at"
-};
-
 export default {
-  description,
-  regionalLink
+  description
 };

@@ -1,7 +1,7 @@
 {% extends 'layout/layout.swig' %}
 
 {% block title %}
-  <title>API | 2021 Draft Regional Water Plan Data</title>
+  <title>API | 2022 Regional Water Plan Data</title>
 {% endblock title %}
 
 {% block content %}
