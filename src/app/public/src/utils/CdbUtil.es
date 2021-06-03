@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const countyTable = 'county_extended';
 const regionTable = 'rwpas';
-const sourceTable = 'iswp_sourcefeatures2017';
+const sourceTable = 'iswp_sourcefeatures2022';
 
 function createEntityLayer(entity) {
   const url = `https://mapserver.tnris.org?map=/tnris_mapfiles/vwEntityCoordinates.map&mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=vwEntity&map.imagetype=png&EntityName=${entity.EntityName}`;
@@ -116,7 +116,7 @@ function apiGeoJsonSources(id) {
     });
     return Promise.all(promises).then(() => {return feat;});
   }
-  else {  
+  else {
     let promises = ['PolygonSources','LineSources','PointSources'].map((layerName) => {
       let query = `https://mapserver.tnris.org/?map=/tnris_mapfiles/${sourceTable}.map&SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=${layerName}&outputformat=geojson&SRSNAME=EPSG:4326&PROPERTYNAME=sourceid,name,sourcetype,isnew,drawingord,featuretyp`;
       return axios.get(query)
