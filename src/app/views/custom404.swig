@@ -10,7 +10,7 @@
     <div class="row panel-row">
       <div class="twelve columns">
         <h2>We’re sorry, the page you requested cannot be found.</h2>
-        <p>This data summary is currently not available. To get data related to this topic, please email <a href="emailto:wrpdatarequests@twdb.texas.gov">wrpdatarequests@twdb.texas.gov</a>.</p>
+        <p>This data summary is currently not available. To get data related to this topic, please email <a href="mailto:wrpdatarequests@twdb.texas.gov">wrpdatarequests@twdb.texas.gov</a>.</p>
       </div>
     </div>
   </div>
