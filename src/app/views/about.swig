@@ -77,6 +77,10 @@
 
             <img src="/public/static/img/HowDoIFindData3.png" width="90%" style="padding:10px;">
 
+            <p>
+              Wholesale water provider (WWP) contract and sales data is collected, but not displayed in the 2022 Interactive State Water Plan since this application is designed to be a summary of water user group (WUG) data. Water management strategy supply being developed, but not assigned to a specific WUG is also collected and not displayed in the 2022 Interactive State Water Plan because that data is not included in recommended strategy supply totals in the state water plan. Please contact <a href="mailto:wrpdatarequests@twdb.texas.gov">wrpdatarequests@twdb.texas.gov</a> to request these datasets.
+            </p>
+
           </section>
 
           <section id="HowDoIUseTheMap">
@@ -106,8 +110,8 @@
             <ul>
               <li>The map for a selected region page will only display projects that benefit water user group splits within that planning region.</li>
               <li>Sources will only display in the map if at least one water user group has an existing supply or water management strategy supply amount greater than zero tied to it in the selected decade.</li>
-              <li>Only the following sources are mapped: groundwater, indirect reuse, reservoir, system, run-of-river, and seawater.</li>
-              <li>Sources of supply that are not mapped to a specific location (Ex: Direct Reuse) will display at the state level in the interactive map.</li>
+              <li>Only the following sources are mapped: groundwater, indirect reuse, reservoir, system, run-of-river, and seawater. Sources are mapped using either a point, line, or polygon to the general location of the source which is based on the best information available. For example, the Austin Off-Channel reservoir is mapped to the center of the City of Austin until a more specific location is provided.</li>
+              <li>‘Direct Reuse’, ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater Harvesting’ are sources that have their data summarized at the statewide level. Currently, only the ‘Rainwater Harvesting’ source is mapped so that its data will display in the 2022 Interactive State Water Plan source page. The other sources will be mapped in a future version of the 2022 Interactive State Water Plan application. Please contact <a href="mailto:wrpdatarequests@twdb.texas.gov">wrpdatarequests@twdb.texas.gov</a> if you need a source data summary for ‘Direct Reuse’, ‘Local Surface Water Supply’, and ‘Atmosphere’.</li>
               <li>If a water user group is related to a zero value for a specific theme and decade it will not display on the map, except for WUGs with zero associated population on the project page. For example, the needs map theme will not display a WUG point if they have zero needs in the selected decade.</li>
               <li>Information about recommended WMS projects that are not specifically associated with water user groups are displayed on the WMS Project application page although, because the water supply is not assigned to water user groups, neither the WMS project or associated supply will display on any of the other application pages until that strategy supply has been assigned to a water user group. These types of projects are recommended by the region to develop supply where a benefiting water user group has not yet been identified.</li>
             </ul>
@@ -228,10 +232,13 @@
             <h3>Where can I access current and previous state water plans?</h3>
             <p><a href="#Top"><small>Back to Top</small></a></p>
             <p>
-              Looking for the most current 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="http://2017.texasstatewaterplan.org">http://2017.texasstatewaterplan.org</a>.
+              Looking for the most current 2022 Interactive State Water Plan website? View it at <a title="2022 Interactive State Water Plan" href="https://2022.texasstatewaterplan.org">https://2022.texasstatewaterplan.org</a>.
             </p>
             <p>
-              Looking for the 2012 Interactive State Water Plan website? View it at <a title="2012 Interactive State Water Plan" href="http://2012.texasstatewaterplan.org">http://2012.texasstatewaterplan.org</a>.
+              Looking for the 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="https://2017.texasstatewaterplan.org">https://2017.texasstatewaterplan.org</a>.
+            </p>
+            <p>
+              Looking for the 2012 Interactive State Water Plan website? View it at <a title="2012 Interactive State Water Plan" href="https://2012.texasstatewaterplan.org">https://2012.texasstatewaterplan.org</a>.
             </p>
             <p>
               For past State Water Plans, please visit <a title="TWDB State Water Planning" href="http://www.twdb.texas.gov/waterplanning/index.asp">http://www.twdb.texas.gov/waterplanning/index.asp</a>.

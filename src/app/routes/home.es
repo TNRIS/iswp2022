@@ -11,7 +11,10 @@ import {addRoutes} from 'lib/utils';
  * @return {view} 404 error
  */
 function to404(request, reply) {
-  return reply.view('404').code(404);
+  const badSources = ['/source/169', '/source/412', '/source/820'];
+  let template;
+  badSources.includes(request.url.pathname) ? template = 'custom404' : template = '404';
+  return reply.view(template).code(404);
 }
 
 /**
