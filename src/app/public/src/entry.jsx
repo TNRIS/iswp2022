@@ -1,5 +1,5 @@
 /*
- * Interactive Texas State Water Plan 2017
+ * Interactive Texas State Water Plan 2022
  * TNRIS | TWDB
  */
 import React from 'react';

@@ -7,8 +7,8 @@ src/app/public/dist/*
 gill-sans/
 gill-sans.*
 
-# Documents
-docs/
+# document lock files
+.~lock.*
 
 # Logs
 logs
