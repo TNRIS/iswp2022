@@ -1,28 +1,28 @@
 {
-  "name": "iswp2017",
-  "version": "1.3.5",
-  "description": "Web application for the Texas 2017 State Water Plan",
+  "name": "iswp2022",
+  "version": "2.1.0",
+  "description": "Web application for the 2022 Texas State Water Plan",
   "private": true,
   "main": "app/index.es",
   "scripts": {
     "start": "NODE_PATH=./app babel-node app/index.es",
     "webpack": "./node_modules/webpack/bin/webpack.js -p --config webpack.config.js",
-    "dev-start": "concurrently \"yarn run dev-webpack\" \"yarn run dev-server\" ",
+    "dev-start": "concurrently \"npm run dev-webpack\" \"npm run dev-server\" ",
     "dev-server": "NODE_PATH=./app nodemon --exec babel-node -- app/index.es",
-    "dev-webpack": "yarn run clean-dist && ./node_modules/webpack/bin/webpack.js -d --progress --colors --watch --config webpack.config.js",
-    "test": "yarn run unit-test && yarn run integration-test",
+    "dev-webpack": "npm run clean-dist && ./node_modules/webpack/bin/webpack.js -d --progress --colors --watch --config webpack.config.js",
+    "test": "npm run unit-test && npm run integration-test",
     "unit-test": "NODE_PATH=./app tape test/unit/**.*",
     "integration-test": "NODE_PATH=./app lab -T test/integration/transform.js -S test/integration/",
-    "dev-test": "nodemon --exec yarn run unit-test",
+    "dev-test": "nodemon --exec npm run unit-test",
     "clean-dist": "rm -rf app/public/dist/*.js app/public/dist/*.map app/public/dist/*.css"
   },
   "engines": {
-    "node": ">=8.6.0",
-    "yarn": ">=1.1.0"
+    "node": ">=8.16.1",
+    "npm": ">=6.4.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnris/iswp2017.git"
+    "url": "https://github.com/tnris/iswp2022.git"
   },
   "author": "TNRIS",
   "contributors": [
@@ -35,9 +35,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tnris/iswp2017/issues"
+    "url": "https://github.com/tnris/iswp2022/issues"
   },
-  "homepage": "https://github.com/tnris/iswp2017",
+  "homepage": "https://github.com/tnris/iswp2022",
   "dependencies": {
     "alt": "^0.18.6",
     "alt-utils": "^2.0.0",

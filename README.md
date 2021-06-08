@@ -8,10 +8,9 @@ Web application for the 2022 Texas State Water Plan.
 
 1. Install [Node](https://nodejs.org/en/download/) >=8.16.1
 2. Install AWS Command Line Interface and configure with AWS credentials (IAM Key, Secret, Region). http://docs.aws.amazon.com/cli/latest/userguide/installing.html
-3. Install [Yarn](https://yarnpkg.com/en/docs/install) >=1.1
-4. Download a copy of the water plan data sqlite3 database (https://s3.amazonaws.com/tnris-droc/iswp/2022/cache.db) and place it at `./src/app/db/cache.db`
-5. Install dependencies: cd into `./src` and run `yarn install`
-6. Install the custom Webfont by following the instructions in 'Webfont' section below
+3. Download a copy of the water plan data sqlite3 database (https://s3.amazonaws.com/tnris-droc/iswp/2022/cache.db) and place it at `./src/app/db/cache.db`
+4. Install dependencies: cd into `./src` and run `npm install`
+5. Install the custom Webfont by following the instructions in 'Webfont' section below
 
 #### Webfont
 
@@ -23,11 +22,11 @@ This command should do it for you (requires aws cli and credentials): cd into `.
 ### Developing
 All commands run from src directory: `cd src` from project root
 
-Upon the first local build, errors on startup may be related to the initial webpack assets not existing yet. If you encounter errors on the initial build, try running `yarn run webpack` and then continue to run the commands below.
+Upon the first local build, errors on startup may be related to the initial webpack assets not existing yet. If you encounter errors on the initial build, try running `npm run webpack` and then continue to run the commands below.
 
-* `yarn run dev-start` in a terminal to continuously build client-side scripts and css and serve the application. view at http://localhost:3333.
+* `npm run dev-start` in a terminal to continuously build client-side scripts and css and serve the application. view at http://localhost:3333.
 
-* `yarn test` to run the test scripts
+* `npm test` to run the test scripts
 
 #### Production Build
 
