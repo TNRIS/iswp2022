@@ -21,7 +21,7 @@ WORKDIR /usr/src/iswp2022
 ADD src/ .
 
 # install production dependencies
-RUN npm install --production
+RUN npm install
 
 # run webpack
 RUN npm run webpack
