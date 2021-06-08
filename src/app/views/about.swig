@@ -118,36 +118,6 @@
 
           </section>
 
-          <!-- <section id="StateWaterPlanData">
-            <h3>State Water Plan Data</h3>
-            <p><a href="#Top"><small>Back to Top</small></a></p>
-
-            <p>
-              Development of the state water plan is central to the mission of the TWDB.  Based on 16 regional water plans, the plan addresses the needs of all water user groups in the state &ndash; municipal, irrigation, manufacturing, livestock, mining, and steam-electric power &ndash; during a repeat of the drought of record that the state suffered in the 1950s. The regional and state water plans consider a 50-year planning horizon: 2020 through 2070.
-            </p>
-
-            <p>During each five-year planning cycle, planning groups evaluate:</p>
-            <ul>
-              <li>population projections,</li>
-              <li>water demand projections, and</li>
-              <li>existing water supplies that would be available during times of drought.</li>
-            </ul>
-
-            <p>Planning groups identify:</p>
-            <ul>
-              <li>water user groups that will not have enough water during times of drought, and</li>
-              <li>recommend strategies and projects that could be implemented to address shortages.</li>
-            </ul>
-
-            <p>
-              At the end of each five-year regional water planning cycle, agency staff compiles information from the approved <a href="http://www.twdb.texas.gov/waterplanning/rwp/plans/2016/index.asp" title="Regional Water Plans">regional water plans</a> and other sources to develop the state water plan, which is presented to TWDB's governing Board for adoption. The final adopted plan is then submitted to the Governor, Lieutenant Governor, and the Texas Legislature.
-            </p>
-
-            <p>
-              The <a href="http://www.twdb.texas.gov/waterplanning/swp/2017/index.asp" title="2017 State Water Plan">2017 State Water Plan</a> is the tenth state water plan and the fourth plan based on the regional water planning process. In addition to incorporating the regional water plans, the state water plan serves as a guide to state water policy.
-            </p>
-          </section> -->
-
           <section id="PlanningProcess">
             <h3>What is the state water planning process?</h3>
             <p><a href="#Top"><small>Back to Top</small></a></p>
