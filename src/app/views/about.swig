@@ -2,7 +2,7 @@
 {% extends 'layout/layout.swig' %}
 
 {% block title %}
-  <title>About | 2022 Regional Water Plan Data</title>
+  <title>About | 2022 Texas State Water Plan</title>
 {% endblock title %}
 
 {% block content %}
