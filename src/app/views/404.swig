@@ -1,7 +1,7 @@
 {% extends 'layout/layout.swig' %}
 
 {% block title %}
-  <title>Not Found | 2022 Regional Water Plan Data</title>
+  <title>Not Found | 2022 Texas State Water Plan</title>
 {% endblock title %}
 
 {% block content %}

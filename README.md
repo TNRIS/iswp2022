@@ -31,7 +31,7 @@ Upon the first local build, errors on startup may be related to the initial webp
 #### Production Build
 
 1. Set `NODE_ENV` to "production"
-2. Run `npm install --production` to install dependencies
+2. Run `npm install` to install dependencies
 3. Run `npm run webpack` to build production client side assets
 4. Run the application with `npm start`. You can optionally set the `APP_PORT` environment variable to specify the port to listen to, otherwise 3333 will be used.
 

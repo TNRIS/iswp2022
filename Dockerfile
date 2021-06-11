@@ -7,7 +7,7 @@ RUN apt-get update
 ENV NODE_ENV production
 
 # install babel
-RUN npm add --save-dev \
+RUN npm install \
     babel-cli \
     babel-preset-env \
     babel-preset-es2015 \
@@ -20,8 +20,8 @@ WORKDIR /usr/src/iswp2022
 # copy app build dir to image
 ADD src/ .
 
-# install production dependencies
-RUN npm install --production
+# install dependencies
+RUN npm install
 
 # run webpack
 RUN npm run webpack
