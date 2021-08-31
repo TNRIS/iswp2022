@@ -128,7 +128,10 @@ export default createReactClass({
 
     let table = null;
     if (R.isEmpty(tableData)) {
-      table = <p> Sorry, there is no population data.</p>;
+      table = <p> This project is not assigned to a specific WUG. To see more information about the project and its related WMS supply, click the following link to go to a TWDB webpage
+      containing an Excel workbook summary of the 2022 State Water Plan which includes that information <a href='http://www.twdb.texas.gov/waterplanning/data/rwp-database/index.asp'>here</a>.
+      You can also contact <a href='mailto:wrpdatarequests@twdb.texas.gov'>wrpdatarequests@twdb.texas.gov</a> to request information about this project.
+      </p>
     } else {
       table =
         <div className="table-container">

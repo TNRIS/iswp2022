@@ -109,8 +109,10 @@
 .ct-chart {
   .ct-label {
     font-size: small;
-    color: $bodyColor;
-    fill: $bodyColor;
+    color: black;
+    fill: black;
+    // color: $bodyColor;
+    // fill: $bodyColor;
 
     &.ct-horizontal {
       font-size: 0.9em;
