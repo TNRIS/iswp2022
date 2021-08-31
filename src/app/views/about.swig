@@ -205,6 +205,9 @@
               Looking for the most current 2022 Interactive State Water Plan website? View it at <a title="2022 Interactive State Water Plan" href="https://2022.texasstatewaterplan.org">https://2022.texasstatewaterplan.org</a>.
             </p>
             <p>
+              Looking for an Excel workbook containing a summary of the 2022 State Water Plan data? Click the following link to go to a TWDB webpage where it is stored <a href="https://www.twdb.texas.gov/waterplanning/data/rwp-database/index.asp">https://www.twdb.texas.gov/waterplanning/data/rwp-database/index.asp</a>.
+            </p>
+            <p>
               Looking for the 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="https://2017.texasstatewaterplan.org">https://2017.texasstatewaterplan.org</a>.
             </p>
             <p>
