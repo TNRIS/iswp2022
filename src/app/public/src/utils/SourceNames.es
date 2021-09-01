@@ -768,7 +768,7 @@ export const sourceNames = [
 	{"sourceid": 643, "name": "QUEEN CITY AQUIFER | WILSON"}, 
 	{"sourceid": 644, "name": "QUEEN CITY AQUIFER | WOOD"}, 
 	{"sourceid": 1014, "name": "QUEEN CITY AQUIFER | ZAVALA"}, 
-	{"sourceid": 1067, "name": "RAINWATER HARVESING"}, 
+	{"sourceid": 1067, "name": "RAINWATER HARVESTING"}, 
 	{"sourceid": 646, "name": "RALPH HALL LAKE/RESERVOIR"}, 
 	{"sourceid": 647, "name": "RANDELL LAKE/RESERVOIR"}, 
 	{"sourceid": 648, "name": "RAY HUBBARD LAKE/RESERVOIR"}, 
