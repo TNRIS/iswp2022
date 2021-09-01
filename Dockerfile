@@ -7,7 +7,7 @@ RUN apt-get update
 ENV NODE_ENV production
 
 # install babel
-RUN yarn add --save-dev \
+RUN npm install \
     babel-cli \
     babel-preset-env \
     babel-preset-es2015 \
@@ -20,11 +20,11 @@ WORKDIR /usr/src/iswp2022
 # copy app build dir to image
 ADD src/ .
 
-# install production dependencies
-RUN yarn install --production
+# install dependencies
+RUN npm install
 
 # run webpack
-RUN yarn run webpack
+RUN npm run webpack
 
 # set default container command
-ENTRYPOINT ["yarn", "run", "start"]
+ENTRYPOINT ["npm", "run", "start"]
