@@ -434,7 +434,7 @@ export default class ThemeMap extends React.Component {
             <div className="theme-map" ref={(mapDiv) => {
                     this.mapDiv = mapDiv;
                 }}></div>
-            <p className="note">Each water user group is mapped to a single point near its primary location; therefore, an entity with a large or multiple service areas may be displayed outside the specific area being queried.</p>
+            <p className="note">Each water user group is mapped to a single point near its primary location; therefore, an entity with a large or multiple service areas may be displayed outside the specific area being queried. The following sources are not mapped to a specific location and are represented in the interactive map as a Texas centroid point: ‘Direct Reuse’ ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater Harvesting’.</p>
             {
                 this.props.theme === 'strategies' && <p className="note">Red triangles indicate capital projects associated with strategy supplies that have been assigned to a Water User Group.{" "}
                         <a className="pointerHover" onClick={this.toggleProjects}>{this.state.showProjects}{" "}Projects</a>
