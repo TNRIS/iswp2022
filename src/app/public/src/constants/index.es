@@ -47,7 +47,7 @@ export default {
     opacity: 1,
     color: '#cc9200',
     weight: 4
-  }
+  },
   MIN_ENTITY_POINT_RADIUS: 4,
   MAX_ENTITY_POINT_RADIUS: 12,
   VIEW_MAP_OPTIONS: {
