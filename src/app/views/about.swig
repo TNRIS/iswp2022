@@ -111,7 +111,7 @@
               <li>The map for a selected region page will only display projects that benefit water user group splits within that planning region.</li>
               <li>Sources will only display in the map if at least one water user group has an existing supply or water management strategy supply amount greater than zero tied to it in the selected decade.</li>
               <li>Only the following sources are mapped: groundwater, indirect reuse, reservoir, system, run-of-river, and seawater. Sources are mapped using either a point, line, or polygon to the general location of the source which is based on the best information available. For example, the Austin Off-Channel reservoir is mapped to the center of the City of Austin until a more specific location is provided.</li>
-              <li>The following sources are not mapped to a specific location and are represented in the interactive map as a Texas centroid point: ‘Direct Reuse’, ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater Harvesting’.</li>
+              <li>The following sources are not mapped to a specific location: 'Direct Reuse', 'Local Surface Water Supply', 'Atmosphere', and 'Rainwater Harvesting'.</li>
               <li>If a water user group is related to a zero value for a specific theme and decade it will not display on the map, except for WUGs with zero associated population on the project page. For example, the needs map theme will not display a WUG point if they have zero needs in the selected decade.</li>
               <li>Information about recommended WMS projects that are not specifically associated with water user groups are displayed on the WMS Project application page although, because the water supply is not assigned to water user groups, neither the WMS project or associated supply will display on any of the other application pages until that strategy supply has been assigned to a water user group. These types of projects are recommended by the region to develop supply where a benefiting water user group has not yet been identified.</li>
             </ul>
@@ -166,7 +166,7 @@
               <li>the primary location of the water user group in which certain types of infrastructure would be located, such as some water treatment plants within a city or water conservation investments; or</li>
               <li>the centroid of the county in which a project with dispersed infrastructure would be located, such as county-wide irrigation, mining, or manufacturing conservation projects; or</li>
               <li>the centroid of a county-aquifer polygon for certain, generalized groundwater supply projects.</li>
-              <li>Although project triangles related to the source types ‘Direct Reuse’, ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater Harvesting’ may have a generalized location, the source is not mapped to a specific location and is represented by a Texas centroid point.</li>
+              <li>Although project triangles related to the source types ‘Direct Reuse’, ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater Harvesting’ may have a generalized location, the source is not mapped to a specific location.</li>
             </ul>
 
             <p>

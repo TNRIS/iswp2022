@@ -1,20 +1,19 @@
 /*global L:false*/
 /*global OverlappingMarkerSpiderfier:false*/
 
+import format from "format-number";
+import PropTypes from "prop-types";
 import R from "ramda";
 import React from "react";
-import PropTypes from "prop-types";
 import scale from "scale-number-range";
-import format from "format-number";
-import { Link } from "react-router-dom";
-
-import CdbUtil from "../../utils/CdbUtil";
+import ThemeMapStateActions from "../../actions/ThemeMapStateActions";
 import constants from "../../constants";
 import history from "../../history";
-import CustomPropTypes from "../../utils/CustomPropTypes";
-import { getColorForValue, create } from "../../utils/NeedsLegend";
-import ThemeMapStateActions from "../../actions/ThemeMapStateActions";
 import ThemeMapStateStore from "../../stores/ThemeMapStateStore";
+import CdbUtil from "../../utils/CdbUtil";
+import CustomPropTypes from "../../utils/CustomPropTypes";
+import { create, getColorForValue } from "../../utils/NeedsLegend";
+
 
 export default class ThemeMap extends React.Component {
   constructor(props) {
@@ -220,6 +219,7 @@ export default class ThemeMap extends React.Component {
     const sortedFeatures = R.reverse(
       R.sortBy(R.path(["properties", "ValueSum"]))(entityFeatures)
     );
+
     const zeroSum = (x) => x.properties.ValueSum != 0;
     const filteredFeatures = R.filter(zeroSum, sortedFeatures);
     this.entitiesLayer = L.geoJson(filteredFeatures, {
@@ -258,6 +258,8 @@ export default class ThemeMap extends React.Component {
         return marker;
       },
     });
+
+    console.log("FILTERED_FEATURES", filteredFeatures)
 
     if (props.theme === "needs") {
       this.legendControl = create();
@@ -379,23 +381,26 @@ export default class ThemeMap extends React.Component {
           // Note that the statewide sourceTypes that meet these conditions
           // are still included in the data tables and other figures
           const unmappableSourceTypes = [
-            "direct reuse",
-            "local surface water supply",
-            "atmosphere",
-            "rainwater harvesting",
+            "DIRECT REUSE",
+            "LOCAL SURFACE WATER SUPPLY",
+            "ATMOSPHERE",
+            "RAINWATER HARVESTING",
+            "RAINWATER"
           ];
-          console.log("RESULTS", results);
-          const resultsToMap = results;
-          resultsToMap.features = resultsToMap.features.filter((feature) => {
+          //console.log("SOURCES", results);
+          const sourcesToMap = results;
+          sourcesToMap.features = sourcesToMap.features.filter((feature) => {
             if (
               feature.properties.isnew !== 1 &&
-              !unmappableSourceTypes.includes(feature.properties.sourcetype)
+              !unmappableSourceTypes.includes(
+                feature.properties.sourcetype.toUpperCase()
+              )
             ) {
               return feature;
             }
           });
 
-          this.sourceLayer = L.geoJson(results, {
+          this.sourceLayer = L.geoJson(sourcesToMap, {
             style: function (feature) {
               switch (feature.properties.sourcetype) {
                 case "groundwater":
@@ -421,6 +426,7 @@ export default class ThemeMap extends React.Component {
               layer.bindPopup(sourceContent);
             },
             pointToLayer: (feature, latlng) => {
+              console.log("POINT", feature)
               return L.circleMarker(latlng, { radius: 8 });
             },
           });
@@ -498,11 +504,7 @@ export default class ThemeMap extends React.Component {
         <p className="note">
           Each water user group is mapped to a single point near its primary
           location; therefore, an entity with a large or multiple service areas
-          may be displayed outside the specific area being queried. The
-          following sources are not mapped to a specific location and are
-          represented in the interactive map as a Texas centroid point: ‘Direct
-          Reuse’ ‘Local Surface Water Supply’, ‘Atmosphere’, and ‘Rainwater
-          Harvesting’.
+          may be displayed outside the specific area being queried. The following sources are not mapped to a specific location: 'Direct Reuse', 'Local Surface Water Supply', 'Atmosphere', and 'Rainwater Harvesting'.
         </p>
         {this.props.theme === "strategies" && (
           <p className="note">
