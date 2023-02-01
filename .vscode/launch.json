@@ -5,14 +5,32 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch via NPM",
+            "name": "Launch dev build",
             "type": "node",
             "request": "launch",
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}/src",
             "runtimeExecutable": "npm",
+            "runtimeVersion": "8.16.1",
             "runtimeArgs": [
                 "run", "dev-start"
-            ]
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Launch prod build",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/src",
+            "runtimeExecutable": "npm",
+            "runtimeVersion": "8.16.1",
+            "runtimeArgs": [
+                "run", "start"
+            ],
+            "env": {
+                "NODE_ENV": "production"
+            }
         }
     ]
 }
