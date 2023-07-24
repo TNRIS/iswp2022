@@ -212,9 +212,6 @@
               Looking for the 2017 Interactive State Water Plan website? View it at <a title="2017 Interactive State Water Plan" href="https://2017.texasstatewaterplan.org">https://2017.texasstatewaterplan.org</a>.
             </p>
             <p>
-              Looking for the 2012 Interactive State Water Plan website? View it at <a title="2012 Interactive State Water Plan" href="https://2012.texasstatewaterplan.org">https://2012.texasstatewaterplan.org</a>.
-            </p>
-            <p>
               For past State Water Plans, please visit <a title="TWDB State Water Planning" href="http://www.twdb.texas.gov/waterplanning/index.asp">http://www.twdb.texas.gov/waterplanning/index.asp</a>.
             </p>
           </section>
