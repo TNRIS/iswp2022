@@ -37,9 +37,9 @@ Upon the first local build, errors on startup may be related to the initial webp
 
 #### Deployment
 
-1. run the app locally via instructions above
-2. test locally to ensure changes are ready for production
-3. commit all changes and merge into the 'master' branch. the ci/cd build will automatically rebuild and deploy the application into production
+1. Run the app locally via instructions above
+2. Test locally to ensure changes are ready for production
+3. Commit all changes and merge into the 'master' branch. the ci/cd build will automatically rebuild and deploy the application into production
 
 #### Temp Code changes for 2022 data while in progress. TODO!
 
