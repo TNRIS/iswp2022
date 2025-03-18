@@ -1,3 +1,6 @@
+# Archived and no longer used.
+iswp is now located at https://github.com/TNRIS/iswp
+
 # Interactive State Water Plan (ISWP) 2022
 
 Web application for the 2022 Texas State Water Plan.
